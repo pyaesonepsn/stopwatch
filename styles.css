@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(20,57,57,.3);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stopwatch{
+    color: yellow;
+    font-size: 150px;
+    font-weight: bold;
+}
+.miniSecond{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 45px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    padding: 10px;
+    margin: 5px;
+    box-shadow:  rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
